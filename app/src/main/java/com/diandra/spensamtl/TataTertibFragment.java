@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BerandaFragment extends Fragment {
+public class TataTertibFragment extends Fragment {
 
 
-    public BerandaFragment() {
+    public TataTertibFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +23,7 @@ public class BerandaFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_beranda, container, false);
+        return inflater.inflate(R.layout.fragment_tata_tertib, container, false);
     }
 
 }

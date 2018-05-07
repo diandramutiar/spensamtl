@@ -4,67 +4,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
     android:weightSum="2"
     tools:context=".LainnyaFragment">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:weightSum="3"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imageVisiMisi"
+        <RelativeLayout
+            android:id="@+id/layout_sejarah"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:src="@drawable/ic_track_changes_black_24dp" />
+            android:layout_margin="5dp"
+            android:background="@android:color/white"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/imageView2"
+            <ImageView
+                android:id="@+id/img_sejarah"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:src="@drawable/icons_sejarah" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img_sejarah"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Sejarah" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_visimisi"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/ic_home_black_24dp" />
+            android:layout_margin="5dp"
+            android:background="@android:color/white"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/ic_home_black_24dp" />
+            <ImageView
+                android:id="@+id/img_visimisi"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/icons_visimisi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img_visimisi"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Visi Misi" />
+
+        </RelativeLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imageView"
+        <RelativeLayout
+            android:id="@+id/layout_tatatertib"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:src="@drawable/ic_track_changes_black_24dp" />
+            android:layout_margin="5dp"
+            android:background="@android:color/white"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/img_tatatertib"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/icons_tatatertib" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img_tatatertib"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Tata Tertib" />
 
-        <ImageView
-            android:id="@+id/imageView2"
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_kontak"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/ic_home_black_24dp" />
+            android:layout_margin="5dp"
+            android:background="@android:color/white"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/ic_home_black_24dp" />
+            <ImageView
+                android:id="@+id/img_kontak"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/icons_kontak" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img_kontak"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Kontak" />
 
+        </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             Fragment fragment = null;
             switch (item.getItemId()){
-                case R.id.navigation_beranda:
-                    fragment = new BerandaFragment();
+                case R.id.navigation_berita:
+                    fragment = new BeritaFragment();
                     break;
                 case R.id.navigation_pengumuman:
                     fragment = new PengumumanFragment();
