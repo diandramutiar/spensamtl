@@ -23,6 +23,7 @@ public class VisiMisiFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Visi Misi");
         return inflater.inflate(R.layout.fragment_visi_misi, container, false);
     }
 

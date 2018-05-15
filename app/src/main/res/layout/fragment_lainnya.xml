@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimary"
     android:weightSum="2"
     tools:context=".LainnyaFragment">
 
@@ -22,20 +21,23 @@
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:background="@android:color/white"
+            android:gravity="center"
+            android:padding="10dp"
             android:layout_weight="1">
 
             <ImageView
                 android:id="@+id/img_sejarah"
-                android:layout_width="match_parent"
-                android:layout_height="232dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
                 android:src="@drawable/icons_sejarah" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/img_sejarah"
                 android:textAlignment="center"
                 android:gravity="center"
-                android:text="Sejarah" />
+                android:text="SEJARAH" />
 
         </RelativeLayout>
 
@@ -44,21 +46,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="10dp"
             android:background="@android:color/white"
             android:layout_weight="1">
 
             <ImageView
                 android:id="@+id/img_visimisi"
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
                 android:src="@drawable/icons_visimisi" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/img_visimisi"
                 android:textAlignment="center"
                 android:gravity="center"
-                android:text="Visi Misi" />
+                android:text="VISI MISI" />
 
         </RelativeLayout>
     </LinearLayout>
@@ -74,20 +79,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="10dp"
             android:background="@android:color/white"
             android:layout_weight="1">
             <ImageView
                 android:id="@+id/img_tatatertib"
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/icons_tatatertib" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/img_tatatertib"
                 android:textAlignment="center"
                 android:gravity="center"
-                android:text="Tata Tertib" />
+                android:text="TATA TERTIB" />
 
         </RelativeLayout>
 
@@ -96,21 +103,23 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="10dp"
             android:background="@android:color/white"
             android:layout_weight="1">
 
             <ImageView
                 android:id="@+id/img_kontak"
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/icons_kontak" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/img_kontak"
                 android:textAlignment="center"
                 android:gravity="center"
-                android:text="Kontak" />
+                android:text="KONTAK" />
 
         </RelativeLayout>
     </LinearLayout>
