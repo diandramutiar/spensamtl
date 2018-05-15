@@ -27,8 +27,8 @@
 
             <ImageView
                 android:id="@+id/img_sejarah"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/icons_sejarah" />
             <TextView
@@ -53,8 +53,8 @@
 
             <ImageView
                 android:id="@+id/img_visimisi"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/icons_visimisi" />
             <TextView
@@ -85,8 +85,9 @@
             android:layout_weight="1">
             <ImageView
                 android:id="@+id/img_tatatertib"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
                 android:src="@drawable/icons_tatatertib" />
             <TextView
                 android:layout_width="match_parent"
@@ -110,8 +111,9 @@
 
             <ImageView
                 android:id="@+id/img_kontak"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
                 android:src="@drawable/icons_kontak" />
             <TextView
                 android:layout_width="match_parent"

@@ -9,5 +9,38 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tatatertib_sekolah">
+        BAB I
+        \n KETENTUAN UMUM \n
+        \n 1. Tatakrama dan tata tettib sekolah ini dimaksudkan sebagai rambu-rambu bagi
+        siswa dalam bersikap, berucap, bertindak dan melaksanakan kegiatan sehari-hari disekolah
+        dalam rangka menciptakan iklim dan kultur sekolah yang dapat menunjang kegiatan pembelajaran
+        yang efektif.
+        \n 2. Tatakrama dan tata tertib sekolah ini dibuat berdasarkan nilai-nilai yang dianut
+        sekolah dan masyarakat sekitar, yang meliputi: nilai ketaqwaan, sopan santun pergaulan,
+        kedisiplinan dan ketertiban, kebersihan, kesehatan, kerapian, keamanan dan nilai-nilai yang mendukung kegiatan belajar yang efektif.
+        \n 3. Setiap siswa wajib melaksanakan ketentuan yang tercantum dalam tatakrama dan tata tertib ini secara konsekuen dan penuh kesadaran.
+
+
+</string>
+    <string name="visimisi_sekolah">
+        Visi :
+        \n Terwujudnya insan yang cerdas, berakhlaq, cakap berbudaya, dan unggul dalam prestasi.
+        \n
+        \n Misi :
+        \n 1. Menerapkan proses pembelajaran berbasis Scientific Approach (pendekatan ilmiah),
+        \n 2. Menghasilkan lulusan yang memiliki kompetensi pengetahuan, sikap dan ketrampilan tinggi,
+        \n 3. Menerapkan penilaian autentik,
+        \n 4. Meningkatkan kemampuan berbahasa Inggris seluruh siswa,
+        \n 5. Bekerja sama secara sinergis dengan berbagai pihak untuk keperluan penyelenggaraan dan pengembangan fasilitas pembelajaran dan SDM serta kegiatan operasional sekolah,
+        \n 6. Menggunakan Sistem Informasi Manajemen Sekolah untuk semua elemen.
+    </string>
+    <string name="kontak_sekolah">
+        \n SMP Negeri 1 Muntilan
+        \n Jl. Pemuda No 161 Muntilan, Tlp (0293) 587021, Kode Pos: 56415
+        \n info@spensamuntilan.sch.id
+        \n www.spensamuntilan.sch.id
+
+    </string>
 
 </resources>

@@ -10,17 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
-        android:text="
-Visi :
-    Terwujudnya insan yang cerdas, berakhlaq, cakap berbudaya, dan unggul dalam prestasi.
-
-Misi :
-1. Menerapkan proses pembelajaran berbasis Scientific Approach (pendekatan ilmiah),
-2. Menghasilkan lulusan yang memiliki kompetensi pengetahuan, sikap dan ketrampilan tinggi,
-3. Menerapkan penilaian autentik,
-4. Meningkatkan kemampuan berbahasa Inggris seluruh siswa,
-5. Bekerja sama secara sinergis dengan berbagai pihak untuk keperluan penyelenggaraan dan pengembangan fasilitas pembelajaran dan SDM serta kegiatan operasional sekolah,
-6. Menggunakan Sistem Informasi Manajemen Sekolah untuk semua elemen.
-    " />
+        android:text="@string/visimisi_sekolah" />
 
 </FrameLayout>
