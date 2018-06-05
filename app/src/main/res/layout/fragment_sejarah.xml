@@ -5,13 +5,16 @@
     android:layout_height="match_parent"
     tools:context=".SejarahFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:text="
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="
         SMPN 1 Muntilan merupakan lembaga pendidikan menengah tingkat pertama tertua yang berada di bawah naungan Dinas Pendidikan Pemuda dan Olahraga Kabupaten Magelang. SMPN 1 Muntilan memiliki sejarah yang cukup panjang dan sangat unik karena telah mengalami berbagai perubahan sebelum menggunakan nama yang sekarang ini sedang disandang. Pada awalnya (sebelum tahun 1946) merupakan Sekolah Menengah Pertama (SMP) Pemda. Mulai tahun 1946 berganti nama menjadi SMP Negeri 1 Muntilan. Selanjutnya pada tahun 1971 mendapat predikat sebagai SMP Perintis, tahun 1978 sebagai SMP Teladan, tahun 2002 sebagai Sekolah Standar Nasional (SSN), dan tahun 2008 oleh pemerintah ditetapkan sebagai salah satu Rintisan Sekolah Bertaraf Internasional (RSBI). Secara geografis, letak SMPN 1 Muntilan sangat strategis karena terletak di dalam kota Muntilan serta berada di jalan utama kota yaitu Jl. Pemuda No 161 Muntilan. Dengan letak yang strategis seperti itu, SMPN 1 Muntilan sangat accessible bagi siswa dan masyarakat di seluruh penjuru Kota Muntilan dan sekitarnya.
         "/>
+    </ScrollView>
 
 </FrameLayout>

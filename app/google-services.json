@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "4748540501",
+    "firebase_url": "https://spensa-notification.firebaseio.com",
+    "project_id": "spensa-notification",
+    "storage_bucket": "spensa-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4748540501:android:640181308bdf8602",
+        "android_client_info": {
+          "package_name": "com.diandra.spensamtl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4748540501-1np6u02uu4hv27m7vi4qk7mhbhqd5ehd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diandra.spensamtl",
+            "certificate_hash": "b8c4ff77acef4b4ee2661346f0e94c42348b80f1"
+          }
+        },
+        {
+          "client_id": "4748540501-qjh7fclmkr6d769b4n14eb6p5m1gkaq5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "4748540501-qjh7fclmkr6d769b4n14eb6p5m1gkaq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCHv_qf19mmmwt24ohx0gimW5-eYeiQE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4748540501-qjh7fclmkr6d769b4n14eb6p5m1gkaq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4748540501:android:0a85385f5fb3b717",
+        "android_client_info": {
+          "package_name": "com.diandra.spensanotif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4748540501-o5g73ur8mcofisonk9quob78ktggfu7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diandra.spensanotif",
+            "certificate_hash": "b8c4ff77acef4b4ee2661346f0e94c42348b80f1"
+          }
+        },
+        {
+          "client_id": "4748540501-qjh7fclmkr6d769b4n14eb6p5m1gkaq5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "4748540501-qjh7fclmkr6d769b4n14eb6p5m1gkaq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCHv_qf19mmmwt24ohx0gimW5-eYeiQE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4748540501-qjh7fclmkr6d769b4n14eb6p5m1gkaq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

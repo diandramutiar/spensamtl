@@ -1,6 +1,7 @@
 package com.diandra.spensamtl;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 fragment = new BeritaFragment();
                 break;
             case R.id.navigation_pengumuman:
-                fragment = new PengumumanFragment();
+                Intent intent = new Intent(MainActivity.this,PengumumanFragment.class);
+                startActivity(intent);
                 break;
             case R.id.navigation_lainnya:
                 fragment = new LainnyaFragment();
