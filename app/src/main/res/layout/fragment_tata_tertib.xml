@@ -5,11 +5,15 @@
     android:layout_height="match_parent"
     tools:context=".TataTertibFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="@string/tatatertib_sekolah" />
 
+    </ScrollView>
 </FrameLayout>
